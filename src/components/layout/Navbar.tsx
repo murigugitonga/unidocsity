@@ -27,6 +27,13 @@ export default function Navbar() {
           {/* <Link to="/register" className="text-sm font-medium text-gray-600 transition hover:text-gray-900">Register</Link> */}
           <Button size="sm">Register</Button>
         </nav>
+        <button
+          type="button"
+          className="rounded-lg p-2 text-gray-700 hover:bg-gray-100 md:hidden"
+          aria-label="Open Menu"
+        >
+          <Menu size={22} />
+        </button>
       </div>
     </header>
   );
