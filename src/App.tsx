@@ -1,11 +1,6 @@
-//import React from "react";
-import PublicLayout from "./layouts/PublicLayout";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./router";
 
 export default function App() {
-  return (
-    <div className="min-h-screen bg-slate-800 flex items-center text-white">
-      <PublicLayout />
-      <p>TestCase</p>
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }

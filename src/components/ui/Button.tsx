@@ -1,11 +1,10 @@
 /**
- * The code in this reusable component stands for 
- * 
+ * The code in this reusable component stands for
+ *
  */
 
-import { cn } from "@/lib/utils/cn";
 import type { ButtonHTMLAttributes } from "react";
-
+import { cn } from "../lib/utils/cn";
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: "primary" | "secondary" | "outline" | "ghost";
